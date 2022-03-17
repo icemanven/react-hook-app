@@ -1,6 +1,6 @@
 import React from "react";
 
-export const TodoListItem = ({todo, index, handleDelete, handleToggle}) => {
+export const TodoListItem = ({ todo, index, handleDelete, handleToggle }) => {
   return (
     <li className="list-group-item">
       <p

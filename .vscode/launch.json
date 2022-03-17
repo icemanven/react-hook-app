@@ -3,6 +3,21 @@
         {
             "type": "aws-sam",
             "request": "direct-invoke",
+            "name": "05-hook-app:src/component/09-useContext/AppRouter.AppRouter (nodejs14.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/",
+                "lambdaHandler": "src/component/09-useContext/AppRouter.AppRouter"
+            },
+            "lambda": {
+                "runtime": "nodejs14.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
             "name": "05-hook-app:src/component/05-useLayoutEffect/Layout.Layout (nodejs14.x)",
             "invokeTarget": {
                 "target": "code",
